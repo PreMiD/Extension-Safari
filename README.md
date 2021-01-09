@@ -1,0 +1,1 @@
+Check `buildSafariExtension` bash script.
