@@ -27,14 +27,17 @@
 
 	"content_scripts": [
 		{
+			"run_at": "document_start",
 			"matches": ["<all_urls>"],
 			"js": ["js/vendor.js", "js/contentScript.js", "js/devHelper.js"]
 		},
 		{
+			"run_at": "document_start",
 			"matches": ["*://*.premid.app/*"],
 			"js": ["js/presenceManager.js"]
 		},
 		{
+			"run_at": "document_start",
 			"matches": ["<all_urls>"],
 			"js": ["js/iFrameHandler.js", "js/devHelper.js"],
 			"all_frames": true

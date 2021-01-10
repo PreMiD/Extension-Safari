@@ -90,9 +90,8 @@ async function handlePresence(port: chrome.runtime.Port) {
 			if (typeof msg.presence.presenceData.largeImageKey !== "undefined")
 				msg.presence.presenceData.largeImageText = `PreMiD v${formatNum(
 					appVersion
-				)} ${String.fromCharCode(8226)} Ext v${
-					chrome.runtime.getManifest().version_name
-				}`;
+				)} ${String.fromCharCode(8226)} Ext v${chrome.runtime.getManifest()
+					.version_name + "- Safari"}`;
 
 			if (oldObject == null) {
 				oldObject = cpObj(msg.presence.presenceData);

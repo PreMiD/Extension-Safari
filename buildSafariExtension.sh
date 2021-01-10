@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/bin/zsh
 actualDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 folderName="SafariConverted"
 
 if ! type "yarn" > /dev/null; then
-  echo "[-] Yarn not found. Exiting..."
-  exit -1
+    echo "[-] Yarn not found. Exiting..."
+    exit -1
 fi
 
 if [ -d "$actualDIR/$folderName" ]
@@ -19,7 +19,7 @@ fi
 
 echo "[+] Installing dependencies for extension..."
 yarn_output=$(yarn 2>&1)
-if [[ cmd_output == *"Error"* ]]
+if [[ "$yarn_output" == *"Error"* ]]
 then
     echo "[-] Installing dependencies failed..."
     exit -1
@@ -28,7 +28,7 @@ else
 fi
 echo "[+] Building PreMiD extension..."
 yarnbuild_output=$(yarn build 2>&1)
-if [[ yarnbuild_output == *"ERROR"* ]]
+if [[ "$yarnbuild_output" == *"ERROR"* ]]
 then
     echo "[-] Build failed..."
     exit -1
