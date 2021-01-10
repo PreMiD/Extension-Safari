@@ -22,4 +22,4 @@
 
 ---
 
-Maintained by @ririxidev (from PreMiD Team)
+Maintained by [@ririxidev](https://github.com/ririxidev) (from PreMiD Team)
