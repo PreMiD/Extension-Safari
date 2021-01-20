@@ -8,10 +8,12 @@
 
 <div align="left">
 
-## Instructions
+## Instructions how to install
 
-- Download Latest release
-- Launch app file - Extension should appear in Safari.
+- Go to [release page](https://github.com/PreMiD/Extension-Safari/releases) and download latest release.
+- Unpack zip and launch app file.
+- Enable extension in Safari extensions preferences or follow this: 
+**(You need to click on this image)** [![Click on video](https://i.imgur.com/cm4PF4d.png)](https://i.ririxi.dev/tutorial.mp4)
 
 ## Support
 
