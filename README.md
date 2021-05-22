@@ -9,8 +9,6 @@
 <div align="left">
 
 ## Instructions how to install
-### There is currently BETA of this extension. Try it by clicking [there](https://github.com/PreMiD/Extension-Safari/releases/tag/v2.2.4.1-BETA).
-
 - Go to [release page](https://github.com/PreMiD/Extension-Safari/releases/latest) and download latest release.
 - Unpack zip and launch .app file.
 - Enable extension in Safari extensions preferences or follow this: 
@@ -30,4 +28,4 @@ Clicking `Close and open Safari Preferences` doesn't work?!?!
 
 ---
 
-Maintained by [@ririxidev](https://github.com/ririxidev) (from PreMiD Team)
+Maintained by [@ririxidev](https://github.com/ririxidev).
