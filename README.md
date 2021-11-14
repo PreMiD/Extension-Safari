@@ -4,20 +4,20 @@
 
 # PreMiD Extension for Safari
 
-<img src="https://cln.sh/oBE2DTVdXDJIhOF7qQ9u/download" draggable="false"><br>
-
 <div align="left">
 
-## Instructions how to install
+## Installation
 - Go to [release page](https://github.com/PreMiD/Extension-Safari/releases/latest) and download latest release.
 - Mount dmg file and drop Extension to `/Applications` folder.
-- Enable extension in Safari extensions preferences or follow this: 
-**(You need to click on this image)** [![Click on video](https://i.imgur.com/cm4PF4d.png)](https://i.ririxi.dev/tutorial.mp4)
+- Enable extension in Safari extensions preferences
 
 ---
 
-Clicking `Close and open Safari Preferences` doesn't work?!?!
+## Frequently Asked Questions
+Clicking `Close and open Safari Preferences` doesn't work?!
 - Drop extension file to `/Applications` folder. It should do the trick.
+  
+ ---
 
 ## Support
 
@@ -28,4 +28,4 @@ Clicking `Close and open Safari Preferences` doesn't work?!?!
 
 ---
 
-Maintained by [@ririxidev](https://github.com/ririxidev).
+Not currently maintained.
